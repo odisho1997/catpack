@@ -1,48 +1,48 @@
 {
   "name": "Catuserbot",
-  "description": "A simple Telegram userbot based on Telethon . Maintained by Sandeep ",
+  "description": "اهلا وسهلا في تليثون نوفمبر",
   "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/sandy1709/catuserbot/",
+  "repository": "https://github.com/odisho1997/catuserbot/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "give your name",
-      "value": ""
+      "description": "هنا اسم التليثون",
+      "value": "ميميان"
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "value": "6223384"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "value": "8b2a99ed20dec0ca4587201a57598ca6"
     },
     "STRING_SESSION": {
       "description": "Get this value by running python3 telesetup.py locally or https://generatestringsession.sandeep1709.repl.run",
-      "value": ""
+      "value": "1ApWapzMBu4mxlE9QSXdEBXbGkuEXLIKyZ5ATWUMCQXnd_bC0V725lp9KM-cWmGvnpq2lkXcnzmJ9Ep48lBCHz1T-84meJgfJN1sL8c30CdBUjQhNIxSJRPCqAWlrK10g2QTTRw3dcj6CpeyuUyx7e3niOqoATnbn4ev3KuvldfqhoG_jWjZ7XcIs9EY68zRmGM07fTGjWDoT1qBCky3MNRLkMxhSB9Y7fHl9b_IZ4AlJ6tqtgvaDHuTD6UZCJDxOqdkcXTNi8HTovGnznJ7BBMKF54WxZAg1weukgHtrF3dLNUB_bMdmMh1CKTidXTdbwB8ZNnao1GyIpKMWrlCMSwtxHZ6yqdo="
     },
     "TG_BOT_USERNAME": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
-      "value": ""
+      "value": "thwegfbot"
     },
     "TG_BOT_TOKEN": {
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
-      "value": ""
+      "value": "1880329999:AAEhDApYaRMfHh3kmhOOTMH5u-gg9ZI310o"
     },
     "COMMAND_HAND_LER": {
       "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
-      "value": ".",
+      "value": "",
       "required": false
     },
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
-      "value": "ANYTHING",
+      "value": "1ApWapzMBu4mxlE9QSXdEBXbGkuEXLIKyZ5ATWUMCQXnd_bC0V725lp9KM-cWmGvnpq2lkXcnzmJ9Ep48lBCHz1T-84meJgfJN1sL8c30CdBUjQhNIxSJRPCqAWlrK10g2QTTRw3dcj6CpeyuUyx7e3niOqoATnbn4ev3KuvldfqhoG_jWjZ7XcIs9EY68zRmGM07fTGjWDoT1qBCky3MNRLkMxhSB9Y7fHl9b_IZ4AlJ6tqtgvaDHuTD6UZCJDxOqdkcXTNi8HTovGnznJ7BBMKF54WxZAg1weukgHtrF3dLNUB_bMdmMh1CKTidXTdbwB8ZNnao1GyIpKMWrlCMSwtxHZ6yqdo=",
       "required": false
     },
     "HEROKU_API_KEY": {
@@ -51,13 +51,47 @@
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "YOUR app name ",
+      "description": "اسم التطبيق",
       "value": "",
       "required": false
+      "PRIVATE_GROUP_BOT_API_ID": {
+      "description": "حط ايدي كروبك مهم جدا",
+      "value": "1001436726103",
+      "required": false
     },
+     "PRIVATE_GROUP_ID": {
+      "description": "حط ايدي كروبك ايضا مهم جدا",
+      "value": "1001436726103",
+      "required": false
+    },
+    "PMPERMIT_PIC": {
+      "description": "حط رابط صورتك اذا ماتعرف اتركه فارغ",
+      "value": "",
+      "required": false
+      },
+     "CUSTOM_PMPERMIT_TEXT": {
+      "description": "اكتب كليشتك الي تريدها تضهر ببوت الحمايه",
+      "value": "ها هلو",
+      "required": false
+      },
+    "DEFAULT_BIO": {
+      "description": "خلي كتابه الي تريدها من تفعل بايو الوقتي اذا ماتعرفه اتركه",
+      "value": "",
+      "required": false
+      },
+     "AUTONAME": {
+      "description": "خلي كتابه الي تريدها من تفعل الاسم الوقتي اذا ماتعرفه اتركه",
+      "value": "",
+      "required": false
+      },
+    "DEFAULT_PIC": {
+      "description": "ضع رابط الصوره التي تريدها عند تفعيل الصوره الوقتيه اذا ماعرفتها اتركها فارغه",
+      "value": "",
+      "required": false
+      },
     "TZ": {
-      "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
+      "description": "موقعك الحالي فقط امسح كلمه بغداد وحط عاصمه بلدك فقط",
+      "value": "Asia/Baghdad",
       "required": false
     },
     "UPSTREAM_REPO": {
