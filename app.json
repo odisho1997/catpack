@@ -37,7 +37,7 @@
     },
     "COMMAND_HAND_LER": {
       "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
-      "value": ".",
+      "value": "",
       "required": false
     },
     "ENV": {
@@ -54,6 +54,7 @@
       "description": "اسم التطبيق",
       "value": "",
       "required": false
+    },      
       "PRIVATE_GROUP_BOT_API_ID": {
       "description": "حط ايدي كروبك مهم جدا",
       "value": "1001436726103",
